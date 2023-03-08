@@ -10,7 +10,7 @@ result = ""
 for myNumber in range(1,33):
     if myNumber%3 == 0:
         if myNumber%5 == 0:
-            result = str(result) + str("Fizzbuzz") + "\n"
+            result = str(result) + str("FizzBuzz") + "\n"
         else:
             result = str(result) + str("Fizz") + "\n"
     elif myNumber%5 == 0:
